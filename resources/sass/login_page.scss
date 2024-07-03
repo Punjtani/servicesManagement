@@ -1,0 +1,52 @@
+.login_page{background-size:cover;background-position:center center;background-repeat:no-repeat;height:100vh;position:relative;}
+.login_page_box{position:absolute;top:50%;left:10px;right:10px;transform:translate(0%,-50%);}
+.login_page_inner{margin:3rem auto;background-color:#fff;border-radius:10px;padding:40px 20px 20px 20px;}
+.login_logo{margin-bottom:20px;}
+.login_header{color:#000;font-size:30px;
+
+    // font-family:'Montserrat',sans-serif;
+
+    font-family: 'Calibri';
+    font-weight:400;font-display:auto;margin-bottom:20px;}
+.login_page .form-control{height:60px;font-size:14px;line-height:1.5;padding:0.375rem 1.2rem;font-weight:600;text-align:center;}
+.login_page .login_btn_box{margin-top:20px;}
+.login_page .login_btn{font-size:18px;font-weight:600;padding:21px 30px;letter-spacing:1.7px;}
+
+/* ======== */
+.remember_me{margin-top:15px;}
+.remember_me .custom_checkbox label{position:relative;margin:0;padding-left:34px;line-height:2;color:#666666;font-weight:600;font-size:14px;cursor:pointer;}
+.remember_me .custom_checkbox input[type=checkbox] + .box::after{position:absolute;left:0;top:2px;margin-top:0;margin-left:0;display:inline-block;content:" ";width:24px;height:24px;border:1px solid #cccccc;border-radius:0;background-color:#fff;z-index:3;}
+.remember_me .custom_checkbox input[type=checkbox]:checked + .box::before{transform:none;position:absolute;left:7px;top:9px;width:10px;height:10px;border-width:0;border-style:solid;border-top:0;border-left:0;border-color:transparent;background-color:#FF9800;content:"";z-index:9;}
+
+/* ======== */
+@media (min-width:768px){
+    .login_logo{margin-bottom:30px;}
+    .login_header{font-size:34px;margin-bottom:20px;}
+    .login_page_box{position:absolute;top:50%;left:50%;right:auto;transform:translate(-50%,-50%);}
+    .login_page_inner{max-width:480px;min-width:480px;margin:3rem auto;border-radius:30px;padding:50px 60px 40px 60px;}
+    .login_page .form-control{height:40px;}
+    .login_page .login_btn{font-size:14px;padding:13px 15px;}
+    .login_page .login_btn_box{margin-top:20px;}
+    .remember_me{margin-top:20px;}
+}
+@media (min-width:1400px){
+    .login_logo{margin-bottom:50px;}
+    .login_header{font-size:36px;margin-bottom:50px;}
+    .login_page_box{position:absolute;top:50%;left:50%;right:auto;transform:translate(-50%,-50%);}
+    .login_page_inner{max-width:480px;min-width:480px;margin:3rem auto;border-radius:30px;padding:50px 60px;}
+    .login_page .form-control{height:60px;}
+    .login_page .login_btn{font-size:18px;padding:21px 30px;}
+    .login_page .login_btn_box{margin-top:28px;}
+    .remember_me{margin-top:48px;}
+}
+.login_page .login_page_img{display:none;}
+@media (max-width:575px){
+    .login_logo{max-width:150px;margin:0 auto;margin-bottom:20px;}
+    .login_page_inner{margin:0rem auto;background-color:transparent;border-radius:0;padding:30px 20px 20px 20px;}
+    .login_page_box{position:relative;top:0;left:auto;right:auto;transform:none;}
+    .login_page .login_page_img{display:block;}
+    .login_page{background:transparent!important;}
+    .login_page .form-control{height:38px;font-size:14px;line-height:1.5;background-color:transparent!important;}
+    .login_page .login_btn{font-size:14px;padding:13px 15px;}
+    .login_page .login_btn_box{margin-top:10px;}
+}

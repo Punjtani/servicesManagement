@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    //    console.log(arraySplit([1,2,3,4,5],2));
+          
+    //    function arraySplit(arr,l) {
+    //     let inner = [];
+    //     let output = [];
+    //     for(let i=0;i<arr.length;i++)
+    //             {
+    //                 inner.push(arr[i]);
+    //                   if(inner.length === l || i === arr.length -1)
+    //                     {   
+    //                         output.push(inner);
+    //                         inner = [];
+    //                     }
+    //             }
+    //             return output;
+    
+    //    }
+    // var count1 = 0;
+    // function count()
+    // {
+    //    console.log(count1)
+    //     const inner = function counter() {
+    //         console.log(count1);
+    //     };
+    //     inner();
+    //     var count1 = 0;
+    // };
+    // count();
+    // console.log((call()));
+    // console.log((call()));
+    //   call.reset();
+    //   console.log(call());
+    // console.log(call());
+    // console.log(call());
+//     function Button1() {
+//     this.clicked = false;
+//     console.log(this);
+//     // this.handleClick = this.handleClick.bind(this); // Bind the method to the instance
+// }
+
+// Button1.prototype.handleClick = function() {
+//     this.clicked = true;
+//     console.log('Button clicked:', this.clicked);
+// };
+
+// const button = new Button1();
+// const buttonElement = document.createElement('button');
+// buttonElement.textContent = 'Click me';
+// buttonElement.addEventListener('click', button.handleClick);
+// document.body.appendChild(buttonElement);
+2.
+
+// function Car(type, fuelType){
+// 	this.type = type;
+// 	this.fuelType = fuelType;
+// }
+
+// function setBrand(brand){
+// 	Car.apply(this, ["convertible", "petrol"]);
+// 	this.brand = brand;
+// 	console.log(`Car details = `, this);
+// }
+
+// function definePrice(price){
+// 	Car.apply(this, ["convertible", "diesel"]);
+// 	this.price = price;
+// 	console.log(`Car details = `, this);
+// }
+
+// const newBrand = new setBrand('Brand1');
+// const newCarPrice = new definePrice(100000);
+// "use strict";
+
+     function add(num1) {
+        return function (num2)  {
+             if(num2)
+             {
+                return add(num1 + num2);
+             }
+             return num1;
+        }
+     }
+    console.log(add(5)(4)(2)(3)());
+    ///////////////////////////////////////////
+    function compute() {
+        this.number = 0;
+         this.thousand = function(num2){
+                this.number += num2;
+                return this; 
+        }
+        this.crore = function(num2){
+               this.number += num2;
+               return this; 
+        }
+        this.value = function(){
+             return this.number; 
+        }
+        return {...this};
+            //  thousand : thousand(2),
+            //  crore : crore(2),    
+            //  value : number,
+        // }
+     }
+    //  const st = compute();
+    console.log(compute().thousand(4).crore(2).value());
+    ////////////////////////////////////////
+    </script>
+</body>
+</html>

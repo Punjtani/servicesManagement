@@ -1,0 +1,508 @@
+// clients main page css
+.main_page_heading {
+    font-size: 48px;
+}
+.client_filters_left_button {
+    background: #fff;
+}
+.client_filters_left_button ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+}
+.client_filters_left_button ul li {
+    padding: 0 1px;
+    flex: 1 0 0%;
+    list-style: none;
+}
+.client_filters_left_button ul li {
+    display: inline-block;
+    padding: 0 3px;
+}
+.client_filters_left_button ul li button {
+    background: #f1f5f8;
+    border-radius: 5px;
+    padding: 0px 0px;
+    color: #5881ce;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    height: 50px;
+    transition: .3s ease all;
+}
+.client_filters_left_button ul li button.active , .client_filters_left_button ul li button:hover{
+    background: #5781cd;
+    color: #fff;
+}
+.client_filters_left_button {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+// search bar
+.search_form_clients {
+    padding: 10px 10px 10px 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+.right_button_clients {
+    padding: 10px 10px 10px 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+.right_button_clients button{
+    border-radius: 5px;
+    font-weight: bold;
+    min-width: 100%;
+}
+.search_form_clients input[type="text"] {
+    height: 49px;
+    border: none;
+}
+.search_form_clients .col-8 {
+    flex: 0 0 auto;
+    width: 77%;
+}
+.search_form_clients .col-4 {
+    width: 23%;
+    text-align: right;
+}
+.search_form_clients button {
+    // background: #0d3b67;
+    border-radius: 5px;
+    font-weight: bold;
+    min-width: 100%;
+}
+//  body area css
+.body_area .sub_heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0d3c68;
+}
+.card_left_container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.clients_main_area .body_area .card_item .left_card_area {
+    width: 85px;
+}
+.clients_main_area .body_area .card_item {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 20px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+.clients_main_area .body_area .card_item:hover {
+    background: #0d3b67;
+}
+.clients_main_area .body_area .card_item h5 {
+    background: #f1f5f7;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0d3c68;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+.clients_main_area .body_area .card_item .card_name {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0d3c68;
+}
+.clients_main_area .body_area .card_item:hover .card_name {
+    color: #fff;
+}
+.clients_main_area .body_area .card_item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #FF9800;
+    font-size: 18px;
+    font-weight: 600;
+}
+.clients_main_area .body_area .card_item .edit_action {
+    text-align: right;
+    display: grid;
+}
+.clients_main_area .body_area .card_item .edit_action a svg {
+    color: #5881ce;
+    width: 50px;
+    height: auto;
+    background: #f1f5f7;
+    padding: 11px 11px;
+    border-radius: 3px;
+    transition: .3s ease all;
+}
+.clients_main_area .body_area .card_item:hover svg {
+    color: #fff !important;
+    background: #FF9800 !important;
+}
+// pagination
+.pagination_clients> div {
+    float: unset !important;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0px !important;
+    line-height: 30px;
+    width: 100%;
+}
+.pagination_clients> div:first-child {
+    display: none;
+}
+.pagination_clients {
+    background: #f1f5f8;
+    box-shadow: 0 0 20px -7px #bfbfbf;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+.pagination_clients> div button {
+    background: transparent !important;
+    min-height: auto;
+}
+.pagination_clients> div button .arrows_icon {
+    fill: #3670c7;
+}
+.pagination_clients> div button:nth-child(1),.pagination_clients> div button:nth-child(2) {
+float: left;
+}
+.pagination_clients> div button:nth-child(3),.pagination_clients> div button:nth-child(4) {
+    float: right;
+    }
+// popup css
+
+div#roleAdd .modal-content .modal_content_inner {
+    min-height: 330px;
+}
+div#roleAdd  .multiselect__content-wrapper {
+    max-height: 150px !important;
+}
+div#clientdetails .modal-dialog {
+    width: 700px;
+    /* height: 700px; */
+}
+div#clientdetails .modal-dialog .dashboard_content_area{
+    min-height: 300px;
+}
+div#clientdetails h1.heading_text{
+    font-size: 48px;
+}
+div#clientdetails .select_area select {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 19px;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: #0d3c68;
+}
+div#clientdetails .select_area label {
+    display: block;
+    font-size: 18px;
+}
+div#clientdetails .main_heading {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FF9800;
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+}
+div#clientdetails  .sub_heading {
+    font-size: 18px;
+    color: #0d3b67;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+div#clientdetails  .note_head {
+    font-size: 24px;
+    color: #0d3b67;
+}
+div#clientdetails p{
+    font-size: 18px;
+    color: #0d3c68;
+    margin-bottom: 5px;
+}
+div#clientdetails ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+div#clientdetails ul li{
+    flex: 0 0 50%;
+    font-size: 18px;
+    color: #0d3b67;
+    text-transform: capitalize;
+}
+div#clientdetails hr {
+    border: 4px solid;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+div#clientdetails button.btn-close {
+    right: 30px;
+    top: 30px;
+}
+.right_card_area {
+    width: 100%;
+}
+.bottom_flexs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.client-status-toggle {
+    margin-top: -35px;
+}
+
+// popup staff info
+// .staff_info_tbl table {
+//     width: 100%;
+// }
+
+// .staff_info_tbl table tbody tr:nth-child(odd) {
+//     background: #ffffff;
+// }
+
+// .staff_info_tbl table tr td {
+//     padding: 5px 5px !important;
+//     font-size: 18px;
+//     color: #0d3c68;
+// }
+
+// .staff_info_tbl table tr th {
+//     padding: 5px 5px;
+//     color: #0d3b67;
+//     text-transform: capitalize;
+//     margin-bottom: 10px;
+//     font-size: 18px;
+// }
+// .staff_info_tbl table tr td:first-child, .staff_info_tbl table tr th:first-child {
+//     width: 80%;
+// }
+
+.staff_info_tbl .table_to_be_used th {
+    background: transparent;
+    color: #0d3b67;
+}
+.staff_info_tbl table {
+    margin: 0;
+    width: 100%;
+}
+.right_button_clients > a:first-child {
+    flex: 0 0 20%;
+}
+// popup staff info end
+.tooltip.b-tooltip{
+    width: auto;
+}
+@media (min-width: 1600px){
+    .right_button_clients a button {
+        font-size: 20px !important;
+        }
+        .right_button_clients {
+            display: flex;
+            gap: 10px;
+        }
+        .right_button_clients > a {
+            flex: 1 0 0%;
+        }
+        .right_button_clients a button {
+            width: 100%;
+        }
+}
+
+@media (max-width: 1800px){
+    .btn_big_medium.btn {
+        font-size: 22px;
+        padding: 10px 18px;
+    }
+    .right_button_clients a button {
+        font-size: 22px !important;
+    }
+}
+
+
+@media (max-width: 1500px){
+    .right_button_clients a button {
+        font-size: 18px !important;
+        padding: 11px 18px !important;
+    }
+
+    .right_button_clients {
+        display: flex;
+        gap: 10px;
+        padding: 5px 10px 5px 10px;
+    }
+    .search_form_clients {
+        padding: 5px 10px;
+    }
+
+    .btn_big_medium.btn {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+    .right_button_clients > a {
+        flex: 1 0 0%;
+    }
+    .right_button_clients a button {
+        width: 100%;
+    }
+
+    .client_filters_left_button ul li button {
+        font-size: 15px;
+        height: 40px;
+
+    }
+    .search_form_clients input[type=text] {
+        height: 40px;
+        border: none;
+    }
+    .client_filters_left_button {
+        background: #fff;
+        padding: 6px 5px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 1280px){
+    .btn_big_medium.btn {
+        font-size: 14px;
+        padding: 10px 10px !important;
+        line-height: 1.2;
+    }
+    .client_filters_left_button ul li button {
+        font-size: 15px;
+        height: 37px;
+    }
+    .pricing_page_mobile button, .pricing_page_mobile a{
+        display: flex;
+        width: auto !important;
+    }
+    .pricing_page_mobile {
+        display: flex;
+        gap: 10px;
+    }
+}
+@media (max-width: 1280px){
+    .custom__searchs .btn_medium {
+        padding: 9px 15px;
+    }
+}
+@media (max-width: 1024px){
+    .search_form_clients .col-8 {
+        flex: 0 0 auto;
+        width: 73%;
+    }
+
+}
+@media (max-width: 768px) {
+    .right_button_clients a button{
+        width: auto;
+    }
+    .left_status {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ipade_6 {
+        width: 50%;
+    }
+    .search_form_clients .col-8 {
+        flex: 0 0 auto;
+        width: 76%;
+    }
+    div#clientdetails .modal-dialog {
+        width: 95%;
+        /* height: 700px; */
+    }
+    .right_button_clients {
+        margin-top:10px ;
+    }
+}
+@media (max-width: 600px) {
+    .staff_info_tbl table tr td:first-child, .staff_info_tbl table tr th:first-child {
+        width: 65%;
+    }
+    .ipade_6 {
+        width: 100%;
+    }
+    .clients_main_area .body_area .card_item .card_name , .clients_main_area .body_area .card_item ul{
+        font-size: 15px;
+    }
+    .clients_main_area .body_area .card_item .left_card_area {
+        width: 80px;
+    }
+    .clients_main_area .body_area .card_item h5 {
+        background: #f1f5f7;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        color: #0d3c68;
+        padding: 12px;
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+    .clients_main_area .body_area .card_item .edit_action a svg {
+        width: 30px;
+        padding: 5px 5px;
+    }
+    div#clientdetails h1.heading_text {
+        font-size: 30px;
+    }
+    div#clientdetails .select_area label {
+        display: block;
+        font-size: 15px;
+    }
+    div#clientdetails .select_area select {
+        height: 40px;
+        font-size: 15px;
+    }
+    div#clientdetails .main_heading {
+        font-size: 20px;
+    }
+    div#clientdetails .sub_heading {
+        font-size: 15px;
+    }
+    div#clientdetails p {
+        font-size: 15px;
+    }
+    div#clientdetails .note_head {
+        font-size: 20px;
+    }
+    div#clientdetails ul li {
+        font-size: 15px;
+    }
+    .dashboard_content_area {
+        min-height: max-content;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 375px) {
+    div#clientdetails ul li {
+        flex: 0 0 100%;
+    }
+    #clientdetails ul {
+        flex-direction: column;
+    }
+    div#clientdetails button.btn-close {
+        right: 15px;
+        top: 15px;
+    }
+
+}
+.left_card_area{
+    background-color: #ffff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}

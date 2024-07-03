@@ -1,0 +1,140 @@
+
+/* ======model=========start====== */
+.custom_base_model .modal-header{padding:0;border-bottom:none;}
+.custom_base_model .modal-body{padding:0;}
+.custom_base_model .modal-content{background-color:#fff;padding:10px;}
+.custom_base_model .modal_content_inner{background-color:#f1f5f8;padding:20px 3px 3px 3px;}
+.custom_base_model .btn-close{width:5px;height:5px;color:#000000;border-radius:.25rem;opacity:1;position:absolute;right:15px;top:8px;}
+
+.custom_base_model .btn-close:focus,
+.custom_base_model .btn-close.focus,
+.custom_base_model .btn-close:focus,
+.custom_base_model .btn-close:hover{color:#fff;background-color:transparent;box-shadow:none!important;outline:none!important;}
+
+/* ===== */
+
+.work_requests_model  .base_row{margin-bottom: 10px!important;}
+/* ===== */
+@media (min-width:576px){
+    .custom_base_model_small .modal-dialog{max-width:530px;margin:1.75rem auto;}
+    .custom_base_model_medium .modal-dialog{max-width:1040px;margin:1.75rem auto;}
+    .custom_base_model_large .modal-dialog{max-width:530px;margin:1.75rem auto;}
+    .custom_base_model_xl .modal-dialog{max-width:530px;margin:1.75rem auto;}
+    .custom_base_model_small_medium .modal-dialog{max-width:530px;margin:1.75rem auto;}
+    .custom_base_model .modal_content_inner{padding:20px 15px 15px 15px;}
+}
+@media (min-width:768px){
+    .custom_base_model .modal-content{padding:20px;}
+    .custom_base_model_small .modal-dialog{max-width:530px;margin:1.75rem auto;}
+    .custom_base_model_medium .modal-dialog{max-width:1040px;margin:1.75rem auto;}
+    .custom_base_model_small_medium .modal-dialog{max-width:700px;margin:1.75rem auto;}
+    .custom_base_model .modal_content_inner{padding:30px 15px 15px 15px;}
+
+    .custom_base_model_large .modal-dialog{max-width:750px;margin:1.75rem auto;}
+    .custom_base_model_xl .modal-dialog{max-width:750px;margin:1.75rem auto;}
+/* ===== */
+    .work_requests_model .form-group {margin-bottom: 10px;}
+    .work_requests_model .form-control,
+    .work_requests_model .form-select {height: 40px;}
+    .work_requests_model textarea.form-control {min-height: 110px;}
+}
+@media (min-width:1600px){
+    .custom_base_model .modal_content_inner{padding:40px 45px 45px 45px;}
+}
+@media (min-width:992px){
+    .custom_base_model_large .modal-dialog{max-width:870px;margin:1.75rem auto;}
+    .custom_base_model_xl .modal-dialog{max-width:1200px;margin:1.75rem auto;}
+    .custom_base_model_small_medium .modal-dialog{max-width:750px;margin:1.75rem auto;}
+}
+
+
+
+
+
+/* ============================================================================================ */
+
+/* ======model=========end====== */
+
+/* ============================================================================================ */
+/* ============================================================================================ */
+
+/* ======modal_heading=========start====== */
+
+/* ============================================================================================ */
+h1.modal_heading,h2.modal_heading,h3.modal_heading,h4.modal_heading,h5.modal_heading,h6.modal_heading,.h1.modal_heading,.h2.modal_heading,.h3.modal_heading,.h4.modal_heading,.h5.modal_heading,.h6.modal_heading{color:#3670c7;line-height:1;
+
+    // font-family:'Montserrat',sans-serif;
+    font-family: 'Calibri';
+    font-weight:400;margin-bottom:20px;text-transform:none}
+/* ======== */
+h1.modal_heading,.h1.modal_heading{font-size:20px;}
+h2.modal_heading,.h2.modal_heading{font-size:18px;}
+h3.modal_heading,.h3.modal_heading{font-size:18px;}
+h4.modal_heading,.h4.modal_heading{font-size:16px;}
+h5.modal_heading,.h5.modal_heading{font-size:14px;}
+h6.modal_heading,.h6.modal_heading{font-size:14px;}
+
+/* ======== */
+h1.modal_heading small,h2.modal_heading small,h3.modal_heading small,h4.modal_heading small,h5.modal_heading small,h6.modal_heading small{line-height:100%;display:block;color:#000;
+
+    // font-family:'Montserrat',sans-serif;
+    font-family: 'Calibri';
+    font-weight:500;margin-top:5px
+}
+
+/* ======== */
+h1.modal_heading small,.h1.modal_heading small{font-size:14px;}
+h2.modal_heading small,.h2.modal_heading small{font-size:14px;}
+h3.modal_heading small,.h3.modal_heading small{font-size:14px;}
+h4.modal_heading small,.h4.modal_heading small{font-size:14px;}
+h5.modal_heading small,.h5.modal_heading small{font-size:14px;}
+h6.modal_heading small,.h6.modal_heading small{font-size:14px;}
+/* ======== */
+
+@media (min-width:576px){
+    h1.modal_heading,h2.modal_heading,h3.modal_heading,h4.modal_heading,h5.modal_heading,h6.modal_heading,.h1.modal_heading,.h2.modal_heading,.h3.modal_heading,.h4.modal_heading,.h5.modal_heading,.h6.modal_heading{line-height:1;}
+    h1.modal_heading,.h1.modal_heading{font-size:30px;}
+    h2.modal_heading,.h2.modal_heading{font-size:28px;}
+    h3.modal_heading,.h3.modal_heading{font-size:26px;}
+    h4.modal_heading,.h4.modal_heading{font-size:24px;}
+    h5.modal_heading,.h5.modal_heading{font-size:22px;}
+    h6.modal_heading,.h6.modal_heading{font-size:20px;}
+
+    /* ===== */
+    h1.modal_heading small,h2.modal_heading small,h3.modal_heading small,h4.modal_heading small,h5.modal_heading small,h6.modal_heading small{margin-top:5px}
+
+    /* ===== */
+    h1.modal_heading small,.h1.modal_heading small{font-size:14px;}
+    h2.modal_heading small,.h2.modal_heading small{font-size:14px;}
+    h3.modal_heading small,.h3.modal_heading small{font-size:14px;}
+    h4.modal_heading small,.h4.modal_heading small{font-size:14px;}
+    h5.modal_heading small,.h5.modal_heading small{font-size:14px;}
+    h6.modal_heading small,.h6.modal_heading small{font-size:14px;}
+}
+
+@media (min-width:1400px){
+    h1.modal_heading,h2.modal_heading,h3.modal_heading,h4.modal_heading,h5.modal_heading,h6.modal_heading,.h1.modal_heading,.h2.modal_heading,.h3.modal_heading,.h4.modal_heading,.h5.modal_heading,.h6.modal_heading{line-height:1;}
+    h1.modal_heading,.h1.modal_heading{font-size:48px;}
+    h2.modal_heading,.h2.modal_heading{font-size:44px;}
+    h3.modal_heading,.h3.modal_heading{font-size:40px;}
+    h4.modal_heading,.h4.modal_heading{font-size:36px;}
+    h5.modal_heading,.h5.modal_heading{font-size:34px;}
+    h6.modal_heading,.h6.modal_heading{font-size:30px;}
+
+    /* ===== */
+    h1.modal_heading small,h2.modal_heading small,h3.modal_heading small,h4.modal_heading small,h5.modal_heading small,h6.modal_heading small{margin-top:5px}
+
+    /* ===== */
+    h1.modal_heading small,.h1.modal_heading small{font-size:18px;}
+    h2.modal_heading small,.h2.modal_heading small{font-size:16px;}
+    h3.modal_heading small,.h3.modal_heading small{font-size:16px;}
+    h4.modal_heading small,.h4.modal_heading small{font-size:16px;}
+    h5.modal_heading small,.h5.modal_heading small{font-size:16px;}
+    h6.modal_heading small,.h6.modal_heading small{font-size:14px;}
+}
+
+/* ============================================================================================ */
+
+/* ======modal_heading=========end====== */
+
+/* ============================================================================================ */

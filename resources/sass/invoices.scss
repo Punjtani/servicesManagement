@@ -1,0 +1,474 @@
+
+
+.details_shorts.invoice_page {
+    background-color: #fff;
+    padding: 25px 30px 5px 30px;
+}
+.details_shorts_inner input {
+    border-radius: 5px !important;
+    color: #0d3c68 !important;
+    font-weight: 500 !important;
+    height: 40px!important;
+
+}
+.details_shorts_inner small {
+    color: #0d3c68;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+// some extra code
+.invoices_table .drag-sortable tr td:first-child {
+    width: 72% !important;
+}
+.invoices_table tbody.tbody.draggable-inv > tr {
+    background-color: transparent;
+    box-shadow: none;
+}
+.invoices_table tbody.tbody.draggable-inv > tr h5 {
+    width: 25%;
+    color: #5881ce;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.invoices_table.draggable tbody .drag-sortable tr {
+    background: #fff !important;
+    padding: 5px 2px;
+    margin-bottom: 0;
+}
+.invoices_table.draggable tbody .drag-sortable tr.first {
+    border-radius: 5px 5px 0px 0px;
+}
+.invoices_table.draggable tbody .drag-sortable tr.last {
+    border-radius: 0 0 5px 5px;
+}
+.invoices_table tbody.tbody.draggable-inv > tr h5, .invoices_table tbody.tbody.draggable-inv > tr >td > div {
+    display: inline-block;
+}
+.invoices_table tbody.tbody.draggable-inv > tr > td > div input.form-control {
+    height: 40px;
+    border-radius: 5px;
+}
+.invoices_table .drag-sortable tr td:last-child span {
+    background: #fff;
+    padding: 0px 0px;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 2.2;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    width: 100px;
+    text-align: center;
+    color: #0d3c68;
+
+}
+.invoices_table tbody.tbody button.cross__button {
+    background-color: #ececec;
+    opacity: 1 !important;
+    transition: 0.3s ease all;
+    height: 40px;
+    padding: 0 10px;
+    background-size: 10px;
+    vertical-align: middle;
+}
+.invoices_table tbody.tbody.draggable-inv {
+    border-bottom: 1px solid;
+    padding: 15px 0;
+    border-bottom: 4px solid #cdd6dc;
+}
+    .invoices_table thead tr th:first-child{
+        width: 25% !important;
+        padding-left: 15px !important;
+    }
+    .invoices_table thead tr  th:nth-child(2) {
+        width: 45%;
+    }
+    .invoices_table .drag-sortable tr td:first-child {
+        width: 26% !important;
+        padding-left: 15px !important;
+    }
+    .invoices_table .drag-sortable tr td:nth-child(2) {
+        width: 46%;
+    }
+    .invoices_table .drag-sortable tr td, .invoices_table thead  tr th {
+        width: 10%;
+        padding: 5px !important;
+    }
+.invoices_table .drag-sortable .sub_total_td {
+        width: 15%;
+    }
+
+    .invoices_table thead  tr th{
+        padding: 15px !important;
+    }
+    .invoices_table tfoot tr {
+        width: 100%;
+        display: inline-table;
+        padding: 0px 16px !important;
+        background: #0d3c68;
+    }
+    .invoices_table thead tr th {
+        background: #0d3c68;
+    }
+    .invoices_table tfoot tr td {
+        text-transform: uppercase;
+        font-size: 24px !important;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr h5 >span {
+        font-size: 14px;
+        background: #5881ce;
+        color: #fff;
+        padding: 2px 8px;
+        border-radius: 5px;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+     .invoice_sub_total {
+        display: table-caption;
+        padding: 3px 20px;
+        background: #cfd9e3;
+        margin-bottom: 14px;
+        margin-top: -8px;
+    }
+
+    .invoice_sub_total h6 {
+        margin-bottom: 0;
+        color: #0d3c68;
+        font-size: 24px;
+        text-transform: uppercase;
+
+    }
+    .invoice_sub_total .right {
+        text-align: right;
+    }
+@media only screen and (min-width: 801px){
+    .table_to_be_used.table_with_short_spacing th:last-child {
+        text-align: left !important;
+    }
+    tbody.tbody.add_item {
+        margin-bottom: 17px;
+        border-radius: 5px !important;
+    }
+    .add_item .drag-sortable> tr {
+        align-items: flex-end !important;
+        vertical-align: bottom!important;
+    }
+
+    .left_buttons {
+        float: left;
+        margin-top: 15px;
+    }
+    .row.add_item_main_row h6 {
+        margin-bottom: 0px !important;
+    }
+
+    .row.add_item_main_row {
+        display: table-caption;
+        margin: 7px 0;
+    }
+
+    .invoices_table  .multiselect__tags .multiselect__placeholder ,  .invoices_table  .multiselect__tags span.multiselect__single {
+        height: 40px !important;
+        line-height: 40px !important;
+        min-height: 40px !important;
+        border: 1px solid #e1e1e1 !important;
+        border-radius: 5px !important;
+    }
+    .invoices_table .multiselect__tags .multiselect__placeholder{
+        display: block!important;
+        border: 0px solid #e1e1e1 !important;
+    }
+    .invoices_table  .multiselect__tags {
+        min-height: 21px !important;
+        height: 40px;
+        line-height: 1 !important;
+        margin-top: 0px;
+        border-radius: 5px !important;
+    }
+    .invoices_table tfoot.bg_blue {
+        margin-top: -6px;
+        z-index: 9;
+        position: relative;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr > td > div {
+        padding-left: 10px;
+    }
+    .invoices_table.draggable tbody tr {
+        width: 100%;
+        display: flex;
+        vertical-align: middle;
+        padding-left: 0px;
+        box-shadow: none;
+        padding-right:0px;
+        border: none;
+    }
+
+    .invoices_table .drag-sortable tr td:last-child span {
+    background: #fff;
+    padding: 0px 0px;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 2.2;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    width: 75%;
+    text-align: center;
+}
+
+    .invoices_table .drag-sortable tr td:last-child {
+        text-align: center;
+        display: flex;
+    }
+    .invoices_table .drag-sortable tr td input {
+        height: 40px;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .invoices_table .drag-sortable tr td textarea {
+
+        min-height: 40px !important;
+        overflow: visible;
+        padding: 5px 10px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .invoices_table tfoot tr td:last-child {
+        float: right;
+        padding-right: 20px !important;
+    }
+    .invoices_table tfoot tr td:first-child {
+        padding-left: 20px !important;
+    }
+    .payments_table thead tr th:first-child {
+        width: 50%;
+        background-color: transparent !important;
+        font-size: 18px;
+        color: #5881ce;
+    }
+
+    .payments_table thead tr th:not(:first-child) {
+        width: 15% !important;
+        background-color: transparent !important;
+        font-size: 18px;
+        color: #5881ce;
+    }
+    .payments_table  tbody{
+        border-top: none!important;
+        color: #0d3c68;
+        font-size: 18px;
+    }
+    .payments_table  tbody tr td{
+        color: #0d3c68;
+        font-size: 18px;
+    }
+    .payments_table tfoot td {
+        padding: 12px 15px !important;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr > td > div.parent_tr_data {
+        width: 74%;
+        margin-left: -5px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .invoice_sub_total {
+        /* width: 100%; */
+        display: block;
+    }
+
+    .no_pad_in_mobile {
+        padding: 0 0;
+    }
+
+    .invoices_table .drag-sortable tr td:last-child {
+        text-align: center;
+        display: flex;
+    }
+    .invoices_table .drag-sortable tr td input {
+        height: 40px;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .invoices_table .drag-sortable tr td textarea {
+
+        min-height: 40px !important;
+        overflow: visible;
+        padding: 5px 10px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .invoices_table tfoot tr td:last-child {
+        float: unset;
+        text-align: right;
+        padding-right: 20px !important;
+    }
+    .invoices_table tfoot tr td:last-child::before{
+        top:13px;
+    }
+
+    .invoices_table tfoot tr td:first-child {
+        padding-left: 20px !important;
+    }
+    .payments_table thead tr th:first-child {
+        width: 50%;
+        background-color: transparent !important;
+        font-size: 18px;
+        color: #5881ce;
+    }
+
+    .payments_table thead tr th:not(:first-child) {
+        width: 15% !important;
+        background-color: transparent !important;
+        font-size: 18px;
+        color: #5881ce;
+    }
+    .payments_table  tbody{
+        border-top: none!important;
+        color: #0d3c68;
+        font-size: 18px;
+    }
+    .payments_table  tbody tr td{
+        color: #0d3c68;
+        font-size: 18px;
+    }
+    .payments_table tfoot td {
+        // padding: 12px 15px !important;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr > td > div.parent_tr_data {
+        width: 74%;
+        margin-left: -5px;
+    }
+
+}
+@media (max-width: 800px) {
+    .left_buttons {
+        float: left;
+        margin-top: 16px;
+    }
+    .invoices_table .drag-sortable tr td:first-child {
+        width: 100% !important;
+        padding-left: 50% !important;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr > td {
+        padding-left: 0;
+    }
+    .invoices_table .drag-sortable tr td:nth-child(2) {
+        width: 100%;
+        padding-left: 50% !important;
+    }
+    .invoices_table .drag-sortable tr td {
+        width: 100%;
+        padding-left: 50% !important;
+    }
+    .invoices_table .drag-sortable tr td:last-child span {
+        width: 87%;
+
+    }
+    .invoices_table .drag-sortable .sub_total_td {
+        width: 100%;
+display: flex;
+    }
+    .payments_table tr td {
+        padding-left: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .invoices_table tbody.tbody.draggable-inv > tr > td > div.parent_tr_data {
+        width: 50%;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr h5{
+        font-size: 20px;
+    }
+    .details_shorts .col {
+        flex: 1 0 50%;
+    }
+    .details_shorts .details_shorts_inner h6 {
+        margin-bottom: 7px;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr > td {
+        padding-left: 0;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr h5, .invoices_table tbody.tbody.draggable-inv > tr .h5 {
+        width: 50%;
+    }
+    .invoices_table .drag-sortable tr td:first-child {
+        width: 100% !important;
+        padding-left: 50% !important;
+    }
+    .invoices_table .drag-sortable tr td, .invoices_table thead tr th {
+        width: 100%;
+        padding-left: 50% !important;
+    }
+    .invoices_table .drag-sortable .sub_total_td{
+        width: 100%;
+        padding-left: 50% !important;
+    }
+    .invoices_table .drag-sortable tr td:nth-child(2) {
+        width: 100%;
+    }
+    .invoices_table .drag-sortable tr td:last-child span {
+
+        width: 80%;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .left_buttons {
+        float: unset;
+    }
+    .invoices_table h5.parent_service {
+        margin-bottom: 10px !important;
+    }
+    .invoices_table tfoot tr td{
+        font-size: 20px;
+    }
+    .no_pad_in_mobile {
+        padding: 0 12px;
+    }
+    .invoices_table tbody.tbody.draggable-inv > tr > td > div.parent_tr_data,.invoices_table tbody.tbody.draggable-inv > tr h5 {
+        width: 100%;
+    }
+    .details_shorts_inner .col-md-7 {
+        padding-left: 0;
+    }
+    .details_shorts_inner > .row ,.details_shorts_inner.row {
+        margin-left: 0;
+    }
+    .before_payment_buttons button, .before_payment_buttons a {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .details_shorts .col {
+        flex: 1 0 100%;
+    }
+    .invoice_sub_total h6{
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .invoices_table tfoot tr td:last-child::before{
+        width: 50%;
+    }
+
+}

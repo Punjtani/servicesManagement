@@ -1,0 +1,11 @@
+@media (min-width: 810px) {
+    .add_assign_job_tbl tbody .taxarea_job {
+        min-height: 40px !important;
+        line-height: 1.6;
+    }
+}
+@media (min-width: 1500px) {
+    .add_assign_job_tbl tbody .taxarea_job {
+    line-height: 2.5;
+    }
+}

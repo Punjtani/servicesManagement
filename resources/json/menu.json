@@ -1,0 +1,260 @@
+{
+    "menu": [
+        {
+            "hasSubMenu": false,
+            "route": "/dashboard",
+            "name": "Dashboard",
+            "icon": "dashboard-interface"
+        },
+        {
+            "hasSubMenu": false,
+            "route": "/my-jobs",
+            "name": "My Jobs",
+            "icon": "briefcase"
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Jobs",
+            "collapse": "Jobs-collapse",
+            "icon": "briefcase",
+            "sub": [
+                {
+                    "route": "/all-jobs?status=all&reload=1",
+                    "name": "All Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=scheduled&reload=1",
+                    "name": "Scheduled Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=unscheduled&reload=1",
+                    "name": "Unscheduled Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=unassigned&reload=1",
+                    "name": "Unassigned Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=overdue&reload=1",
+                    "name": "Overdue Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=partial-scheduled&reload=1",
+                    "name": "Partial Scheduled Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=completed-billed&reload=1",
+                    "name": "Completed Billed Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=completed-ready-to-bill&reload=1",
+                    "name": "Completed Ready to Bill Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=not-ready-to-bill&reload=1",
+                    "name": "Not Ready to Bill Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=completed-not-ready-to-bill&reload=1",
+                    "name": "Completed Not Ready to Bill Jobs"
+                },
+                {
+                    "route": "/all-jobs?status=today&reload=1",
+                    "name": "Today's Jobs"
+                },
+                {
+                    "route": "/requested-jobs",
+                    "name": "Requests"
+                },
+                {
+                    "route": "/cancelled-jobs",
+                    "name": "Cancelled Jobs"
+                },
+                {
+                    "route": "/jobs-calendar",
+                    "name": "View Calendar"
+                },
+                {
+                    "route": "/required-po",
+                    "name": "Missing PO's Jobs"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Clients",
+            "collapse": "clients-collapse",
+            "icon": "user",
+            "sub": [
+                {
+                    "route": "/clients",
+                    "name": "All PMC"
+                },
+                {
+                    "route": "/all-quotes",
+                    "name": "All Quotes"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Employees",
+            "collapse": "employees-collapse",
+            "icon": "user",
+            "sub": [
+                {
+                    "route": "/employees",
+                    "name": "All Employees"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Profile",
+            "collapse": "Profile-collapse",
+            "icon": "user",
+            "sub": [
+                {
+                    "route": "/view-client/",
+                    "name": "View Profile"
+                },
+                {
+                    "route": "/client-quotes/",
+                    "name": "Quotes"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "History",
+            "collapse": "history-collapse",
+            "icon": "weekly-calendar-page-symbol",
+            "sub": [
+                {
+                    "route": "/client-history",
+                    "name": "Job History"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Properties",
+            "collapse": "properties-collapse",
+            "icon": "invoice",
+            "sub": [
+                {
+                    "route": "/staff-property",
+                    "name": "All Properties"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Timesheet",
+            "collapse": "TimeSheet-collapse",
+            "icon": "invoice",
+            "sub": [
+                {
+                    "route": "/my-time-sheet",
+                    "name": "View Timesheet"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Invoices",
+            "collapse": "invoices-collapse",
+            "icon": "invoice",
+            "sub": [
+                {
+                    "route": "/invoices",
+                    "name": "All Invoices"
+                },
+                {
+                    "route": "/past-due",
+                    "name": "Past Due"
+                },
+                {
+                    "route": "/awaiting-payment",
+                    "name": "Awaiting Payment"
+                },
+                {
+                    "route": "/cancelled-invoices",
+                    "name": "Cancelled Invoices"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Users",
+            "collapse": "Users-collapse",
+            "icon": "user",
+            "sub": [
+                {
+                    "route": "/all-users",
+                    "name": "All Users"
+                },
+                {
+                    "route": "/all-roles",
+                    "name": "Roles"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Settings",
+            "collapse": "Settings-collapse",
+            "icon": "business-and-trade",
+            "sub": [
+                {
+                    "route": "/apartments",
+                    "name": "Unit Types"
+                },
+                {
+                    "route": "/services",
+                    "name": "Services"
+                },
+                {
+                    "route": "/department",
+                    "name": "Division"
+                },
+                {
+                    "route": "/paint-values",
+                    "name": "Paint Colors"
+                },
+                {
+                    "route": "/refinish-values",
+                    "name": "Refinish Colors"
+                },
+                {
+                    "route": "/all-prices",
+                    "name": "General Pricing"
+                },
+                {
+                    "route": "/tax-types",
+                    "name": "Tax Configuration"
+                },
+                {
+                    "route": "/staff-roles",
+                    "name": "Staff Roles"
+                },
+                {
+                    "route": "/settings",
+                    "name": "Settings"
+                }
+            ]
+        },
+        {
+            "hasSubMenu": true,
+            "name": "Calculator",
+            "icon": "dashboard-interface",
+            "collapse": "Calculator-collapse",
+            "sub": [
+                {
+                    "route": "/client-revenue-calculator",
+                    "name": "Revenue Calculator"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// other css
+@import 'style_base';
+@import 'clientspage';
+@import 'subservices';
+@import 'clientprices';
+@import 'invoices';
+@import 'app_values';
+@import 'login_page';
+@import 'jobdetails';
+@import 'employees_notes';
+@import 'employees_job_details';
